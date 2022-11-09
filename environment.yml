@@ -1,0 +1,11 @@
+name: fastai
+channels:
+  - fastai
+  - conda-forge
+dependencies:
+  - python=3.10
+  - fastai
+  - cudatoolkit=11.3
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
